@@ -10,35 +10,57 @@
     <link rel="stylesheet" href="fonts.css">
 </head>
 <body>
-    
-    <heder class="header">
-            <div class="logo">
+    <header class="header">
+      <div class="center content">
+            <a class="logo" href="#">
                 <img src="assets/images/logo.svg" alt="logo">
-                THEYALOW
-                <!--<img src="assets/images/logo.svg" alt="logo">
-                <h1>THEYALOW</h1>-->
-            </div>
+                <h1>THEYALOW</h1>
+            </a>
             <nav role="navigation">
                 <ul class="main-nav">
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Servises</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="about-us"><a href="#">About us</a></li>
+                    <li class="services"><a href="#">Servises</a></li>
+                    <li class="contacts"><a href="#">Contact</a></li>
                 </ul>
             </nav>
-            
-    </heder>
+      </div>
+    </header>
 
     <main>
-            <video width="400" height="300" controls="controls" poster="assets/images/player.png">
+      <section class="carousel">
+        <div class=center>
+          <div class="video-container">
+            <video poster="assets/images/player.png" width="550px" height="330px"></video>
+            <div class="play-button-center">
+              <div class="triangle"></div>
+            </div>
+            <div class="play-button"><div class="triangle"></div></div>
+            <div class="progress-bar"><div class="progress"></div></div>
+            <div class="volume"></div>
+          </div>
+          <div class="feature-title"><span>THE COOL</span><br><span>THE MINIMAL</span></div>
+        </div>
+      </section>
+
+      <section class="features">
             <ul>
-                <li>Better design</li>
-                <li>Customise</li>
-                <li>It's free</li>
-            </ul>   
-            <div>THE COOL<br>THE MINIMAL</div> 
+              <li>Better design</li>
+              <li>Customise</li>
+              <li>It's free</li>
+            </ul>
+      </section>
+
+      <section class="events">
+ 
+      </section>
+
+      <section class="free">
+
+      </section>
+
     </main>
     
-    <footer>
+    <footer class="footer">
 
     </footer>
     
