@@ -36,6 +36,7 @@ h1 {
   margin: 0;
   padding-top: 12px;
   padding-left: 1px;
+  font-weight: 400;
 }
 
 ul {
@@ -88,6 +89,8 @@ li.about-us::before {
 
 .video-container {
   position: relative;
+  bottom: 28px;
+  left: 9px;
 }
 
 .feature-title {
@@ -141,4 +144,77 @@ main {
   width: 1020px;
   margin: 0 auto;
   display: flex;
+}
+
+h2 {
+  font-size: 63px;
+  letter-spacing: 1px;
+  color: #f5c506;
+  font-family: "Asap";
+  font-weight: 400;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.feature-title {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 130px;
+  align-items: center;
+  flex-direction: column;
+  padding: 53px 0 0 37px;
+}
+
+.feature-title h2+h2 {
+  color: #fff;
+}
+
+.features {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 213px;
+
+}
+
+
+
+.features-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-transform: uppercase;
+  height: 135px;
+  width: 340px;
+  text-align: center;
+  font-size: 27px;
+  letter-spacing: 0px;
+  color: #000000;
+  font-family: "Segoe UI";
+  font-weight: 300;
+  text-align: center;
+  position: relative;
+  top: 40px;
+ 
+  
+
+}
+
+.features-item p {
+   margin-top: 7px;
+}
+
+.features-wrapper {
+  width: 340px;
+  height: 213px; 
+  border-left: 1px solid rgb(146, 141, 141);
+  
+}
+
+.features div+div+div {
+  border-right: 1px solid  rgb(146, 141, 141);
 }
