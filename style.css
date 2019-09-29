@@ -58,7 +58,7 @@ a {
 
 .main-nav {
   background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
-  box-shadow: -5px -5px yellow, -7px -7px black;
+  box-shadow: -5px -5px yellow, -7px -7px #f5c505;
 }
 
 .main-nav li {
@@ -78,6 +78,24 @@ li.about-us::before {
   content: '';
   position: absolute;
   background-image: url('assets/images/about-us.svg');
+  width: 20px;
+  height: 18px;
+  left: 10px;
+}
+
+li.services::before {
+  content: '';
+  position: absolute;
+  background-image: url('assets/images/services.svg');
+  width: 20px;
+  height: 18px;
+  left: 10px;
+}
+
+li.contacts::before {
+  content: '';
+  position: absolute;
+  background-image: url('assets/images/contacts.svg');
   width: 20px;
   height: 18px;
   left: 10px;
@@ -188,7 +206,7 @@ height: 213px;
   justify-content: flex-end;
   align-items: center;
   text-transform: uppercase;
-  height: 135px;
+  
   width: 340px;
   text-align: center;
   font-size: 27px;
@@ -200,8 +218,6 @@ height: 213px;
   position: relative;
   top: 40px;
  
-  
-
 }
 
 .features-item p {
